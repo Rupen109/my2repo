@@ -1,0 +1,32 @@
+                                 ** GIT **
+
+
+-git is a version control system(VCS).
+-esily recover files.
+-who introduced an issue and when?
+-roll back to previously working state.
+
+
+-git is distributed VCS.
+--------------------------------------------
+-how i can enter usernme= git config --global user.name rupen
+
+- tracking project                           = git init
+-all changes are stage                       = git add --a
+-to take snap shot                           = git commit -m "initial commit"
+-if you want to commit only one file         = git add (file name).
+-if you want to know howmany commit you done = git log
+-delete repository=rm -rf .git
+
+-git diff                        = staging area ko working directory se cmpare karna
+-git diff --staged               = last commit or staging k diff
+-git commit -a -m "direct commit"= to direct commit undtracked file
+-git rm (file name)              = to remove any file
+-git mv first.txt new.txt        = to rename file
+-git rm --cached new.txt         = to untract the file
+-git rm -rf .git                 = to remove git ripository 
+-git log -p                      = what is remove from repo....
+-git log --stat                  = its show commit in detail 
+-git log --since=2.days          = what you have done work last 2 days  
+-git checkout --new.txt          = if you want to get old file(bhul thi delete thai gayu hoy je code etc, to a command use karvo).
+ 
