@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- if you want to print by new line then use this <pre> tag either the use of <br> tag -->
+<pre>
+
+    This 
+    Is A        
+    Paragraph.
+</pre>
+ 
+    <!-- <strong> tag is use for make font bold -->
+
+            <strong> Hello World</strong>
+
+    <!-- <strike> tag is for make a center line on font -->
+ 
+            <strike> This Is Paragraph </strike>
+
+    <!-- <q> tag is use for make content in double quotes-->
+
+            <q> hi, how are you  </q>
+
+    
+    <!-- If you want to make content movable then use <marquee> tag -->
+
+        <marquee behaviour="scroll" direction="right" scrollamount="10" bgcolor="red"> show will strat in 5 minute </marquee>        
+
+    <!--  <mark> tag is use for highlight the content -->
+
+            <mark> hope we free from corona soon </mark>
+
+    <!-- <del> tag is use for delete(center line on word ) the some words from line -->
+
+           now start <del> funniest </del> show tmkoc 
+
+    <!-- <ins> tag is use for under line the content -->
+     
+           <ins> This Is CID Show </ins>
+
+    <!-- If you want to write mathamatical form (like a+b whole square )in content then use <sup> tag  -->
+
+         (a+b) <sup> 2 </sup>
+
+    <!-- If you want to write chemastry formula (like H2SO4) in content then use <sub>tag  -->
+         
+         H<sub>2</sub>SO<sub>4</sub>
+
+    <!-- If you want to get information and details from user then use <input> tag  -->
+
+        name:<input type="text" size="100" maxlength="100">
+
+    <!-- If you want to make option box then use <select> tags -->
+
+        state:  <select>
+                     <option type name="a"  gujrat </option>
+                    <option name="b" up </option>
+                    <option name="c" bihar </option>
+                    <option name="d" maharastra </option>
+                </select>
+
+     <!-- If you want to input option and get detail from user then use radio button -->
+                
+        gender: <input type="radio" name="a">male
+                <input type="radio" name="a">female
+   
+    <!-- If you want to get date from user then use bellow tag -->
+   
+        DOb: <input type="date">
+
+            </body>
+</html>
