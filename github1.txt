@@ -24,7 +24,7 @@
 -git rm (file name)              = to remove any file
 -git mv first.txt new.txt        = to rename file
 -git rm --cached new.txt         = to untract the file
--git rm -rf .git                 = to remove git ripository 
+-git rm -rf .git                 = to remove .git folder 
 -git log -p                      = what is remove from repo....
 -git log --stat                  = its show commit in detail 
 -git log --since=2.days          = what you have done work last 2 days  
@@ -35,3 +35,10 @@
 
 -git checkout -b develop         = to creat new branch and switch to that branch.
 -git checkout branchname(master) = if you want to switch your old(first one) branch.
+-git branch                      = your all branches names are shown. 
+
+------------------------------------------------------------------------------
+                          *  Branching & Merging   *
+
+git commit -a -m                 = skip the staging area.
+git merge (branch name)          = to merege the branch.
