@@ -6,9 +6,9 @@
 -who introduced an issue and when?
 -roll back to previously working state.
 
-
 -git is distributed VCS.
---------------------------------------------
+---------------------------------------------------------------------------
+
 -how i can enter usernme= git config --global user.name rupen
 
 - tracking project                           = git init
@@ -29,4 +29,9 @@
 -git log --stat                  = its show commit in detail 
 -git log --since=2.days          = what you have done work last 2 days  
 -git checkout --new.txt          = if you want to get old file(bhul thi delete thai gayu hoy je code etc, to a command use karvo).
- 
+-git restore new.txt             = to discard changes in working directory
+ ----------------------------------------------------------------------------
+                 *  Git: Creating & Switching Branches In Git  *
+
+-git checkout -b develop         = to creat new branch and switch to that branch.
+-git checkout branchname(master) = if you want to switch your old(first one) branch.
