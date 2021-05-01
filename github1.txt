@@ -42,3 +42,5 @@
 
 git commit -a -m                 = skip the staging area.
 git merge (branch name)          = to merege the branch.
+
+-------------------------------------------
